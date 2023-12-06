@@ -1,4 +1,4 @@
-package com.saad.barcodescanner
+    package com.saad.barcodescanner
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity

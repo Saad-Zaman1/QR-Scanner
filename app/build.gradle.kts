@@ -58,9 +58,15 @@ dependencies {
     ksp("com.google.dagger:dagger-compiler:2.48")
     ksp("com.google.dagger:hilt-compiler:2.48")
 
-//    //Navigation component
+    //Navigation component
 //    implementation("androidx.navigation:navigation-compose:2.7.4")
-//    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+
+//    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+
+
+    implementation ("com.google.android.gms:play-services-code-scanner:16.1.0")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
